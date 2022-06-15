@@ -1,13 +1,15 @@
 import './App.css';
+import Card from './components/Card';
 import Sidebar from './components/Sidebar';
+import Tuiles from './components/Tuiles';
+import Slide from './components/Slide';
 
 function App() {
   return (
     <div className="App">
       <Sidebar/>
-      <div className='corps'>
-        <h1>En quelle matière avez-vous besoin d'aide ?</h1>
-      </div>
+      <Slide />
+      
     </div>
   );
 }

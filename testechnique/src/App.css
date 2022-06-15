@@ -1,15 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 /* Sidebar */
 
 .Sidebar {
   flex: 1 1 0;
-  max-width: 300px;
+  min-width: 300px;
   padding: 2rem 1rem;
   background-color: #F3F5FB;
 }
@@ -70,17 +69,4 @@ img {
 
 .App {
   display: flex;
-  min-height: 100vh;
-
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.corps {
-  flex: 1 1 0;
-  padding: 2rem;
-
 }
