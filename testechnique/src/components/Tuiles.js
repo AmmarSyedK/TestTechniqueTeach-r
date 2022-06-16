@@ -6,21 +6,20 @@ import Card from "./Card";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
+import "./Tuiles.css"
 
 // import required modules
 import { Pagination } from "swiper";
+
+const matiere = "Anglais";
 
 function Tuiles() {
     return (
         <>
       <Swiper
+      effect={"coverflow"}
         slidesPerView={4}
-        spaceBetween={10}
-        centeredSlides={true}
-        pagination={{
-          clickable: true,
-        }}
+        spaceBetween={0}
         modules={[Pagination]}
         className="mySwiper"
       >
@@ -28,11 +27,7 @@ function Tuiles() {
         <SwiperSlide><Card /></SwiperSlide>
         <SwiperSlide><Card /></SwiperSlide>
         <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><Card /></SwiperSlide>
       </Swiper>
     </>
     )

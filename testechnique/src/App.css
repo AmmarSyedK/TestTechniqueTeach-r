@@ -9,6 +9,8 @@
 .Sidebar {
   flex: 1 1 0;
   min-width: 300px;
+  max-width: 300px;
+  height: 100%%;
   padding: 2rem 1rem;
   background-color: #F3F5FB;
 }
@@ -69,4 +71,43 @@ img {
 
 .App {
   display: flex;
+}
+
+.tuiles{
+  height: 650px;
+  width: 1600px;
+}
+
+.searchbar{
+  margin-top: 20px;
+}
+
+.body {
+  width: 1600px;
+}
+
+.buton {
+  margin: 0 auto;
+  width: 500px;
+  justify-content: center;
+  display: flex;
+}
+
+.back {
+  font-weight: 900;
+  width: 200px;
+  height: 40px;
+}
+
+.next {
+  margin-left: 100px;
+  font-weight: 900;
+  width: 200px;
+  height: 40px;
+}
+
+.butonContent {
+  font-size: 17px;
+  font-weight: 900;
+  align-items: center;
 }
