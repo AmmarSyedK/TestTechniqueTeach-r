@@ -36,10 +36,10 @@ Le test demande l'utilisation du framework *React* et est divisé en plusieurs n
 
 # Comment démarrer l'application
 
-L'application a été codé en utilisant l'IDE *Visual Studio Code*. Pour démarrer l'application il faut d'abord se situer sur le repertoire *testechnique/* :
+L'application a été codé en utilisant l'IDE *Visual Studio Code*. Pour démarrer l'application, il faut d'abord installer les dépendances du fichier package.json :
 
 ```sh
-cd testechnique
+npm install
 ```
 
 Nous pouvons enfin démarrer l'application à l'aide de la commande suivante :
