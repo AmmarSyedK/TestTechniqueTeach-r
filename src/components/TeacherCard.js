@@ -19,7 +19,7 @@ function TeacherCard(props) {
             .then(
                 (result) => {
                     setUsers(result.data);
-                    setName(users[props.text].first_name + " " + users[props.text].last_name);
+                    setName(users[props.text].first_name.charAt(0).toUpperCase() + users[props.text].first_name.slice(1).toLowerCase() + " " + users[props.text].last_name.charAt(0).toUpperCase() + users[props.text].last_name.slice(1).toLowerCase());
                 }
             )
     })

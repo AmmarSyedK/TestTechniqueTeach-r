@@ -7,6 +7,10 @@
     margin: 100px;
 }
 
+.image-container {
+    
+}
+
 .image-container img {
     margin: 0 auto;
     width: 120px;
@@ -15,14 +19,23 @@
 }
 
 .lower-container {
-    text-align: center;
+    justify-content: center;
+    width: 300px;
+    position: fixed;
     margin-top: -50px;
-    font-size: 22px;
     color: #2959A8;
-
 }
 
+.name{
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
 .stars {
+    margin-top: -30x;
     width: 150px;
     transform: translate(70px, -10px);
 }
@@ -39,7 +52,7 @@ img {
 }
 
 .Info{
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .Info .Content {
