@@ -34,6 +34,13 @@ Le test demande l'utilisation du framework *React* et est divisé en plusieurs n
 
 ![alt text](https://i.ibb.co/jg5SvPk/image.png)
 
+17/06/2022 : Fin du niveau 2 et 3 (Niveau 2 et 3 validés)
+- Création d'une composante *TeacherCard* correspondant à une tuile
+- Utilisation de la méthode *map()* pour l'obtention de plusieurs *TeacherCard*
+- Utilisation de l'API de data.gouv.fr pour obtenir plusieurs noms et prénoms de personne au hasard
+
+![alt text](https://i.ibb.co/3y4698n/image.png)
+
 # Comment démarrer l'application
 
 L'application a été codé en utilisant l'IDE *Visual Studio Code*. Pour démarrer l'application, il faut d'abord installer les dépendances du fichier package.json :
