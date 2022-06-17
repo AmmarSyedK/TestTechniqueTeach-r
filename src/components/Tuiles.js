@@ -11,7 +11,7 @@ import "./Tuiles.css"
 // import required modules
 import { Pagination } from "swiper";
 
-const nombre_card = 6;
+const nombre_card = 8;
 const keys = [...Array(nombre_card).keys()];
 
 function Tuiles() {
@@ -25,8 +25,8 @@ function Tuiles() {
         className="mySwiper"
       > 
       
-        {keys.map(() => (
-          <SwiperSlide><TeacherCard /></SwiperSlide>
+        {keys.map((item) => (
+          <SwiperSlide><TeacherCard text={item} /></SwiperSlide>
         ))}
         
         <SwiperSlide></SwiperSlide>

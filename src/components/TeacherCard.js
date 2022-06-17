@@ -7,29 +7,25 @@ import Level from '../assets/level.png';
 import Verified from '../assets/verified.png';
 import Location from '../assets/location.png';
 
-function TeacherCard() {
+function TeacherCard(props) {
 
     const [users, setUsers] = useState([]);
-
-
-    // Remarque : le tableau vide de dépendances [] indique
+    // Remarque : le table au vide de dépendances [] indique
     // que useEffect ne s’exécutera qu’une fois, un peu comme
     // componentDidMount()
     useEffect(() => {
-        fetch("https://www.data.gouv.fr/api/1/users/?page=1&page_size=6")
+        fetch("https://www.data.gouv.fr/api/1/users/?page=1&page_size=20")
             .then(res => res.json())
             .then(
                 (result) => {
                     setUsers(result.data);
-                    setName(users[0].first_name + " " + users[0].last_name);
-
-
+                    setName(users[props.text].first_name + " " + users[props.text].last_name);
                 }
             )
     })
 
     const [name, setName] = useState();
-    const [school] = useState();
+    const [school] = useState("HEC, 1re année");
     const [level] = useState("Bilingue");
     const [certificate] = useState("Diplôme vérifié");
     const [location] = useState("Paris");
