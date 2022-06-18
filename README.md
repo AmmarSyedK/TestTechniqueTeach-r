@@ -44,3 +44,19 @@ Le test demande l'utilisation du framework *React* et est divisé en plusieurs n
 18/06/2022 : Explication du code
 - Explication du code en le commentant un peu
 - Par manque de temps, je n'ai pas pu commencer le niveau 4
+
+# Comment démarrer l'application
+
+L'application a été codé en utilisant l'IDE *Visual Studio Code*. Pour démarrer l'application, il faut d'abord installer les dépendances du fichier package.json :
+
+```sh
+npm install
+```
+
+Nous pouvons enfin démarrer l'application à l'aide de la commande suivante :
+
+```sh
+npm start
+```
+
+Ouvrir http://localhost:3000 pour voir l'application dans votre navigateur.
