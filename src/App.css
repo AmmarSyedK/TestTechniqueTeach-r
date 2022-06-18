@@ -1,67 +1,12 @@
+/* Importation de la police Nunito sur Google directement */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
+/* Police globale affectée sur Nunito */
 * {
   font-family: 'Nunito', sans-serif;
 }
 
-/* Sidebar */
-
-.Sidebar {
-  flex: 1 1 0;
-  min-width: 300px;
-  max-width: 300px;
-  height: 100%%;
-  padding: 2rem 1rem;
-  background-color: #F3F5FB;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.Logo {
-  margin-top: -30px;
-  height: 100px;
-  width: auto;
-}
-
-.Sidebar .Items {
-  margin-top: 70px;
-}
-
-.Sidebar .Content {
-  width: auto;
-  height: 60px;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
-
-.icons {
-  flex: 30%;
-  display: grid;
-  place-items: center;
-}
-
-.title {
-  flex: 70%;
-}
-
-.Books {
-  margin-top: 300px;
-  margin-bottom: 300px auto;
-  width: 100%;
-  height: auto;
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-/* Body */
+/* Corps de la page */
 
 .App {
   display: flex;
@@ -80,6 +25,7 @@ img {
   width: 1600px;
 }
 
+/* Bouton "Précédent" et "Suivant" de la page */
 .buton {
   margin: 0 auto;
   width: 500px;
@@ -87,12 +33,14 @@ img {
   display: flex;
 }
 
+/* Bouton "Précédent" */
 .back {
   font-weight: 900;
   width: 200px;
   height: 40px;
 }
 
+/* Bouton "Suivant" */
 .next {
   margin-left: 100px;
   font-weight: 900;
@@ -100,6 +48,7 @@ img {
   height: 40px;
 }
 
+/* Texte des deux boutons */
 .butonContent {
   font-size: 17px;
   font-weight: 900;
