@@ -1,0 +1,56 @@
+/* Importation de la police Nunito sur Google directement */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+/* Police globale affectée sur Nunito */
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Corps de la page */
+
+.App {
+  display: flex;
+}
+
+.tuiles{
+  height: 650px;
+  width: 1600px;
+}
+
+.searchbar{
+  margin-top: 20px;
+}
+
+.body {
+  width: 1600px;
+}
+
+/* Bouton "Précédent" et "Suivant" de la page */
+.buton {
+  margin: 0 auto;
+  width: 500px;
+  justify-content: center;
+  display: flex;
+}
+
+/* Bouton "Précédent" */
+.back {
+  font-weight: 900;
+  width: 200px;
+  height: 40px;
+}
+
+/* Bouton "Suivant" */
+.next {
+  margin-left: 100px;
+  font-weight: 900;
+  width: 200px;
+  height: 40px;
+}
+
+/* Texte des deux boutons */
+.butonContent {
+  font-size: 17px;
+  font-weight: 900;
+  align-items: center;
+}
