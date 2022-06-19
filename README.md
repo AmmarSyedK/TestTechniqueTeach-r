@@ -12,6 +12,8 @@ Le test demande l'utilisation du framework *React* et est divisé en plusieurs n
 
 # Avancement
 
+Test envoyé le 14/06/2022 à 12h55
+
 14/06/2022 : Début du test technique (Niveau 1)
 - Création du repository *Git*
 - Création de la barre latérale
@@ -45,6 +47,14 @@ Le test demande l'utilisation du framework *React* et est divisé en plusieurs n
 - Explication du code en le commentant un peu
 - Par manque de temps, je n'ai pas pu commencer le niveau 4
 
+19/06/2022 : Début du Niveau 4
+- Utilisation de *Input* pour le formulaire
+- Niveau 4 non terminé par manque de temps
+
+![alt text](https://ibb.co/1ZcqGDb)
+
+Fin du test technique le 19/06/2022 à 12h51.
+
 # Comment démarrer l'application
 
 L'application a été codé en utilisant l'IDE *Visual Studio Code*. Pour démarrer l'application, il faut d'abord installer les dépendances du fichier package.json :
@@ -60,3 +70,7 @@ npm start
 ```
 
 Ouvrir http://localhost:3000 pour voir l'application dans votre navigateur.
+
+# Explication du code
+
+Le code a été commenté pour plus d'explication sur des points plus complexes.
