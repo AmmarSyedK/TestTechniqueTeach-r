@@ -74,3 +74,7 @@ Ouvrir http://localhost:3000 pour voir l'application dans votre navigateur.
 # Explication du code
 
 Le code a été commenté pour plus d'explication sur des points plus complexes.
+
+# A propos de moi
+
+Actuellement en école d'ingénieurs en informatique à l'EILCO à Calais (deuxième année - Bac +4), je suis à la recherche d'un stage de 3 mois début au plus tard le 27 Juin 2022.
