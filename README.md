@@ -51,7 +51,7 @@ Test envoyé le 14/06/2022 à 12h55
 - Utilisation de *Input* pour le formulaire
 - Niveau 4 non terminé par manque de temps
 
-![alt text](https://ibb.co/1ZcqGDb/image.png)
+![alt text](https://i.ibb.co/p2qzjtn/image.png)
 
 Fin du test technique le 19/06/2022 à 12h51.
 
