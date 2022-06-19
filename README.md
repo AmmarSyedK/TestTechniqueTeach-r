@@ -27,7 +27,7 @@ Test envoyé le 14/06/2022 à 12h55
 - Utilisation de la librairie *MDB* pour les boutons sur chaque tuile
 - Utilisation de *CSS* pour l'apparence de chaque tuile
 
-![alt text](https://i.ibb.co/p2qzjtn/image.png)
+![alt text](https://i.ibb.co/JmFwWhv/image.png)
 
 16/06/2022 : Fin du niveau 1 (Niveau 1 validé)
 - Utilisation de *useState* pour changer le champ [matiere] instantanément
