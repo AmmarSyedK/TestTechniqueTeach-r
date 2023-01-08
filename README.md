@@ -10,6 +10,8 @@ Le test demande l'utilisation du framework *React* et est divisé en plusieurs n
 - Niveau 3 : utiliser une *API* pour obtenir une liste d'utilisateurs fictifs
 - Niveau 4 : réaliser un formulaire en respectant une maquette
 
+L'application est à réaliser en React JS.
+
 # Avancement
 
 Test envoyé le 14/06/2022 à 12h55
