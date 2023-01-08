@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/76450681/211209924-3e45da95-5533-4f5b-8f93-8559f7fa60eb.png)
 # Test technique - Teach'r
 
 Ceci est ma réponse au test technique de *Teach'r*. Un test consistant à réaliser un projet en respectant un cahier des charges fournit par Teach'r.
